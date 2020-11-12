@@ -179,15 +179,3 @@
   * js中没有方法重载(方法名相同, 但参数不同)的语法
   
 
-
-## ES7
-* 指数运算符: **
-* Array.prototype.includes(value) : 判断数组中是否包含指定value
-  
-  
-* **区别方法的2种称谓**
-  * 静态(工具)方法
-    * Fun.xxx = function(){}
-  * 实例方法
-    * 所有实例对象 : Fun.prototype.xxx = function(){} //xxx针对Fun的所有实例对象
-    * 某个实例对象 : fun.xxx = function(){} //xxx只是针对fun对象
